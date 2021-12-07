@@ -1,32 +1,38 @@
 :root {
-    --oxford-blue:       hsl(217, 54%, 11%);
-    --light-oxford-blue: hsl(216, 50%, 16%);
-    --indigo-dye:        hsl(215, 32%, 27%);
-    --blue-yonder:       hsl(216, 30%, 55%);
-    --aqua:              hsl(178, 100%, 50%);
-    --white:             hsl(0, 0%, 100%);
-  }
+  --oxford-blue: hsl(217, 54%, 11%);
+  --light-oxford-blue: hsl(216, 50%, 16%);
+  --indigo-dye: hsl(215, 32%, 27%);
+  --blue-yonder: hsl(216, 30%, 55%);
+  --aqua: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+}
+/*
+fonts added"
 
   
   /*
   for rest 
   */
-  *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  html { font-family: "Outfit", sans-serif; }
-
-a { text-decoration: none; }
-
-
-body{
-    background-color: var(--oxford-blue);
-    min-height: 100vh;
-    padding: 25px;
-    padding: 25px;
-    display:         flex;
-    justify-content: center;
-    align-items:     center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--oxford-blue);
+  min-height: 100vh;
+  padding: 25px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*body tag */
