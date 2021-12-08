@@ -46,13 +46,13 @@ body {
     0px 40px 30px 15px rgba(0, 0, 0, 0.1);
 }
 
-.c-head{
+.c-head {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
 }
-.c-head::after{
+.c-head::after {
   --aqua: hsla(178, 100%, 50%, 0.5);
   content: url(./images/icon-view.svg);
   background: var(--aqua);
@@ -64,3 +64,46 @@ body {
   opacity: 0;
   transition: all 0.25s ease;
 }
+.c-head-img:hover::after {
+  opacity: 1;
+}
+.c-head-img img {
+  width: 100%;
+  display: block;
+}
+.card-body {
+  padding: 23px 0;
+  border-bottom: 1px solid var(--indigo-dye);
+  margin-bottom: 15px;
+}
+.card-title {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.card__title:hover {
+  color: var(--aqua);
+}
+.card-text {
+  color: var(--blue-yonder);
+  font-size: 180x;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.card-body .wrapper{
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.c-price,
+.c-countdown{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 500;
+}
+
+.c-price{color: var(--aqua);}
+.card
