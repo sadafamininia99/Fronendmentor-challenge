@@ -127,3 +127,15 @@ body {
   border-radius: 50px;
   margin-right: 15px;
 }
+.c-author{
+  color: var(--blue-yeonder);
+  font-weight: 500;
+}
+.c-author a{
+  color: var(--white);
+  font-weight: 400;
+}
+
+.c-author a:hover{
+  color: var(--aqua);
+}
