@@ -92,18 +92,38 @@ body {
   margin-bottom: 25px;
 }
 
-.card-body .wrapper{
+.card-body .wrapper {
   display: flex;
   justify-content: center;
-align-items: center;
+  align-items: center;
 }
 .c-price,
-.c-countdown{
+.c-countdown {
   display: flex;
   align-items: center;
   /* justify-content: center; */
   font-weight: 500;
 }
 
-.c-price{color: var(--aqua);}
-.card
+.c-price {
+  color: var(--aqua);
+}
+.c-icon {
+  margin-right: 6px;
+}
+.c-countdown {
+  color: var(--blue-yeonder);
+}
+.c-footer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card__author-img{
+  width:  34px;
+  height: 34px;
+  border: 2px solid var(--white);
+  border-radius: 50px;
+  margin-right: 15px;
+}
