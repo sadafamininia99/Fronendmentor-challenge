@@ -1,2 +1,3 @@
 # Fronendmentor-challenge
-[screenshoots]
+<!-- [screenshoots] -->
+![Screenshot](./images/screenshot.png)
