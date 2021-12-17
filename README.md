@@ -1,3 +1,3 @@
 # Fronendmentor-challenge
 <!-- [screenshoots] -->
-![Screenshot](./images/screenshot.png)
+![Screenshot](https://github.com/sadafamininia99/Fronendmentor-challenge/blob/master/design/desktop-preview.jpg)
